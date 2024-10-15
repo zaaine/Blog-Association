@@ -1,7 +1,7 @@
-<?php $title = "Le blog de l'AVBN"; ?>
+<?php $title = "Le blog de l'AS Volley Club"; ?>
 
 <?php ob_start(); ?>
-<h1>Le super blog de l'AVBN !</h1>
+<h1>Le super blog de AS Volley Club!</h1>
 <p><a href="index.php">Retour à la liste des billets</a></p>
 
 <div class="news">
