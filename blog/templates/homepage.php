@@ -1,9 +1,9 @@
 <?php $title = "Le blog de l'AVBN"; ?>
 
 <?php ob_start(); ?>
-<h1>Le super blog de l'AVBN !</h1>
+<h1>AS Volley Club!</h1>
 <img src="src/assets/AVBN.jpg" alt="team-volley" class="picture">
-<p>Derniers billets du blog :</p>
+<p>Dernières nouvelles du club :</p>
 
 <?php
 foreach ($posts as $post) {

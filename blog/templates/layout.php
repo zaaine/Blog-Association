@@ -10,4 +10,6 @@
     <body>
         <?= $content ?>
     </body>
+
+    <footer> Copyright Zaaine Aziz</footer>
 </html>
