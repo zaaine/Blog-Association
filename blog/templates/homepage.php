@@ -2,6 +2,7 @@
 
 <?php ob_start(); ?>
 <h1>Le super blog de l'AVBN !</h1>
+<img src="src/assets/AVBN.jpg" alt="team-volley" class="picture">
 <p>Derniers billets du blog :</p>
 
 <?php
