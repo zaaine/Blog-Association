@@ -17,28 +17,28 @@
 
 <h2>Commentaires</h2>
 
-<form action="index.php?action=addComment&id=<?= $post->identifier ?>" method="post">
-   <div>
-      <label for="author">Auteur</label><br />
-      <input type="text" id="author" name="author" />
-   </div>
-   <div>
-      <label for="comment">Commentaire</label><br />
-      <textarea id="comment" name="comment"></textarea>
-   </div>
-   <div>
-      <input type="submit" />
-   </div>
-</form>
+<div class="comments-section">
+    <form action="index.php?action=addComment&id=<?= $post->identifier ?>" method="post">
+        <div>
+            <label for="author">Auteur</label><br />
+            <input type="text" id="author" name="author" />
+        </div>
+        <div>
+            <label for="comment">Commentaire</label><br />
+            <textarea id="comment" name="comment"></textarea>
+        </div>
+        <div>
+            <input type="submit" />
+        </div>
+    </form>
 
-<?php
-foreach ($comments as $comment) {
-    ?>
-    <p><strong><?= htmlspecialchars($comment->author) ?></strong> le <?= $comment->frenchCreationDate ?> (<a href="index.php?action=updateComment&id=<?= $comment->identifier ?>">modifier</a>)</p>
-    <p><?= nl2br(htmlspecialchars($comment->comment)) ?></p>
-<?php
-}
-?>
+	<?php foreach ($comments as $comment) { ?>
+        <div class="comment">
+            <p><strong><?= htmlspecialchars($comment->author) ?></strong> le <?= $comment->frenchCreationDate ?> 
+               (<a href="index.php?action=updateComment&id=<?= $comment->identifier ?>">modifier</a>)</p>
+            <p><?= nl2br(htmlspecialchars($comment->comment)) ?></p>
+        </div>
+    <?php } ?>
 <?php $content = ob_get_clean(); ?>
 
 <?php require('layout.php') ?>
