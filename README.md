@@ -1,3 +1,7 @@
+
+![BlogASvolleyClub](https://github.com/user-attachments/assets/738a712f-213e-4ff5-a3b9-82c7a733f95e)
+
+
 # Adoptez une architecture MVC en PHP
 
 Voici le dépôt Git qui sert de support au cours **Adoptez une architecture MVC en PHP**. À partir de ce dépôt, vous pourrez récupérer le code source, situé dans le dossier `blog/`, à chaque étape de l'avancement du projet.
