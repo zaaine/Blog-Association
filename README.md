@@ -1,6 +1,9 @@
 
 ![BlogASvolleyClub](https://github.com/user-attachments/assets/738a712f-213e-4ff5-a3b9-82c7a733f95e)
 
+#Objectif
+
+Créer un blog permettant aux administrateurs de réaliser des billets sportif pour l'AS Volley Club. Les adherents pourront commenter et modifié les commentaires.
 
 # Adoptez une architecture MVC en PHP
 
